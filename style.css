@@ -72,13 +72,13 @@ body {
 
 @media screen and (min-width: 700px) {
   .nav ul {
-    text-align: right;
+    text-align: left;
   }
 
   .nav ul li {
     display: inline-block;
     border-bottom: 0px;
-    border-left: 1px solid black;
+    border-right: 1px solid black;
     text-align: left;
   }
 
