@@ -7,6 +7,20 @@ body {
   margin: 0px;
 }
 
+.centered-container {
+  max-width: 1020px;
+  margin: 0px auto;
+  padding: 0px 16px;
+}
+
+.intro-text {
+  color: gray;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .image-area {
   background-image: url("Images/Background.png");
   background-position: center center;
@@ -20,9 +34,6 @@ body {
   background-color: black;
   color: white;
   font-size: 2.5rem;
-  max-width: 1020px;
-  margin: 0px auto;
-  padding: 0px 16px;
 }
 
 .nav {
@@ -46,4 +57,13 @@ body {
 
 .nav ul li:hover {
   background-color: black;
+}
+
+.single-service {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.single-service p {
+  padding: 0px 16px;
 }
